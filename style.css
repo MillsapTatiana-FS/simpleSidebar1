@@ -48,4 +48,7 @@ body.open .sidebar{
     transition: all 0.4s;
 }
 
+.sidebar-header:hover{
+    border-left: 3px solid #bdbdbd;
+}
 
