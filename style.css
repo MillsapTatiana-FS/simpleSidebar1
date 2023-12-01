@@ -52,3 +52,16 @@ body.open .sidebar{
     border-left: 3px solid #bdbdbd;
 }
 
+.sidebar-burger{
+    width: 70px;
+    height: 70px;
+    display: grid;
+    place-items: center;
+}
+
+.sidebar-burger > i, body.open .sidebar-burger > i{
+    font-size: 25px;
+    color: #f9f9f9;
+    transition: all o.4s;
+}
+
